@@ -1,0 +1,87 @@
+-- Mountain Biome
+
+redValue = 40
+greenValue = 255
+blueValue = 120
+terrainFrequency = 1.0
+terrainAmplitude = 55.0
+treeType = 1
+treeFrequency = 0.1
+rate = 4
+
+EndProperties
+
+---- Block Layers ----
+
+-- Grass Block Layer
+New Generator
+blockId = 2
+offset = 0
+distance = 11
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 3
+noiseLowerBound = 0.1
+noiseUpperBound = 1.0
+
+-- Grass Layer
+New Generator
+layer = 4
+blockId = 37
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 0.33
+noiseOctaves = 8
+noiseLowerBound = 0.03
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Fern Layer
+New Generator
+layer = 4
+blockId = 48
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 0.33
+noiseOctaves = 8
+noiseLowerBound = 0.2
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Poppy Layer
+New Generator
+layer = 4
+blockId = 49
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 3.0
+noiseOctaves = 8
+noiseLowerBound = 0.5
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Dandelion Layer
+New Generator
+layer = 4
+blockId = 50
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 3.0
+noiseOctaves = 8
+noiseLowerBound = 0.5
+noiseUpperBound = 1.0
+isPlant = 1
+
+---- Wall Layers ----
+
+-- Dirt Layer
+New Generator
+wallId = 2
+offset = 3
+distance = 11
+edgeNoiseFilter = 2
+edgeNoiseOffset = 2

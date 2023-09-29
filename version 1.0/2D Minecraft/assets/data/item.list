@@ -1,0 +1,705 @@
+-- Wooden Sword
+New Item = 1
+name = Wooden Sword
+animationAngle = 45.0
+stackSize = 1
+toolType = 4
+toolMineSpeed = 2.0
+maxDurability = 59
+damage = 4
+
+-- Stone Sword
+New Item = 2
+name = Stone Sword
+animationAngle = 45.0
+stackSize = 1
+toolType = 4
+toolMineSpeed = 2.0
+maxDurability = 131
+
+-- Iron Sword
+New Item = 3
+name = Iron Sword
+animationAngle = 45.0
+stackSize = 1
+toolType = 4
+toolMineSpeed = 2.0
+maxDurability = 250
+
+-- Gold Sword
+New Item = 4
+name = Gold Sword
+animationAngle = 45.0
+stackSize = 1
+toolType = 4
+toolMineSpeed = 2.0
+maxDurability = 32
+
+-- Diamond Sword
+New Item = 5
+name = Diamond Sword
+animationAngle = 45.0
+stackSize = 1
+toolType = 4
+toolMineSpeed = 2.0
+maxDurability = 1561
+damage = 7
+
+-- Wooden Pickaxe
+New Item = 6
+animationAngle = 45.0
+name = Wooden Pickaxe
+stackSize = 1
+toolType = 1
+toolStrength = 25.0
+toolMineSpeed = 2.0
+maxDurability = 59
+
+-- Stone Pickaxe
+New Item = 7
+animationAngle = 45.0
+stackSize = 1
+toolType = 1
+toolStrength = 50.0
+toolMineSpeed = 2.5
+maxDurability = 131
+
+-- Iron Pickaxe
+New Item = 8
+animationAngle = 45.0
+stackSize = 1
+toolType = 1
+toolStrength = 75.0
+toolMineSpeed = 3.0
+maxDurability = 250
+
+-- Gold Pickaxe
+New Item = 9
+animationAngle = 45.0
+stackSize = 1
+toolType = 1
+toolStrength = 75.0
+toolMineSpeed = 4.0
+maxDurability = 32
+
+-- Diamond Pickaxe
+New Item = 10
+animationAngle = 45.0
+stackSize = 1
+toolType = 1
+toolStrength = 100.0
+toolMineSpeed = 3.5
+maxDurability = 1561
+
+-- Wooden Axe
+New Item = 11
+name = Wooden Axe
+animationAngle = 45.0
+stackSize = 1
+toolType = 2
+toolMineSpeed = 2.0
+maxDurability = 59
+
+-- Stone Axe
+New Item = 12
+name = Stone Axe
+animationAngle = 45.0
+stackSize = 1
+toolType = 2
+toolMineSpeed = 2.5
+maxDurability = 131
+
+-- Iron Axe
+New Item = 13
+name = Iron Axe
+animationAngle = 45.0
+stackSize = 1
+toolType = 2
+toolMineSpeed = 3.0
+maxDurability = 250
+
+-- Gold Axe
+New Item = 14
+name = Gold Axe
+animationAngle = 45.0
+stackSize = 1
+toolType = 2
+toolMineSpeed = 4.0
+maxDurability = 32
+
+-- Diamond Axe
+New Item = 15
+name = Diamond Axe
+animationAngle = 45.0
+stackSize = 1
+toolType = 2
+toolMineSpeed = 3.5
+maxDurability = 1561
+
+-- Wooden Shovel
+New Item = 16
+name = Wooden Shovel
+animationAngle = 45.0
+stackSize = 1
+toolType = 3
+toolMineSpeed = 1.5
+maxDurability = 59
+
+-- Stone Shovel
+New Item = 17
+name = Stone Shovel
+animationAngle = 45.0
+stackSize = 1
+toolType = 3
+toolMineSpeed = 2.0
+maxDurability = 131
+
+-- Iron Shovel
+New Item = 18
+name = Iron Shovel
+animationAngle = 45.0
+stackSize = 1
+toolType = 3
+toolMineSpeed = 2.5
+maxDurability = 250
+
+-- Gold Shovel
+New Item = 19
+name = Gold Shovel
+animationAngle = 45.0
+stackSize = 1
+toolType = 3
+toolMineSpeed = 3.5
+maxDurability = 32
+
+-- Diamond Shovel
+New Item = 20
+name = Diamond Shovel
+animationAngle = 45.0
+stackSize = 1
+toolType = 3
+toolMineSpeed = 3.0
+maxDurability = 1561
+
+-- Wooden Hoe 
+New Item = 21
+name = Wooden Hoe
+animationAngle = 45.0
+stackSize = 1
+toolType = 5
+maxDurability = 59
+
+-- Stone Hoe 
+New Item = 22
+name = Stone Hoe 
+animationAngle = 45.0
+stackSize = 1
+toolType = 5
+maxDurability = 131
+
+-- Iron Hoe 
+New Item = 23
+name = Iron Hoe 
+animationAngle = 45.0
+stackSize = 1
+toolType = 5
+maxDurability = 250
+
+-- Golden Hoe 
+New Item = 24
+name = Golden Hoe 
+animationAngle = 45.0
+stackSize = 1
+toolType = 5
+maxDurability = 32
+
+-- Diamond Hoe 
+New Item = 25
+name = Diamond Hoe
+animationAngle = 45.0
+stackSize = 1
+toolType = 5
+maxDurability = 1561
+
+-- Coal
+New Item = 26
+name = Coal
+stackSize = 64
+fuelValue = 64
+
+-- Raw Copper
+New Item = 27
+name = Raw Copper
+stackSize = 64
+
+-- Raw Iron
+New Item = 28
+name = Raw Iron
+stackSize = 64
+
+-- Raw Gold
+New Item = 29
+name = Raw Gold
+stackSize = 64
+
+-- Redstone
+New Item = 30
+name = Redstone
+stackSize = 64
+
+-- Lapiz
+New Item = 31
+name = Lapiz
+stackSize = 64
+
+-- Emerald
+New Item = 32
+name = Emerald
+stackSize = 64
+
+-- Diamond
+New Item = 33
+name = Diamond
+stackSize = 64
+
+-- Stick
+New Item = 34
+name = Stick
+animationAngle = 45.0
+stackSize = 64
+fuelValue = 4
+
+-- Torch 
+New Item = 35
+name = Torch
+type = 1
+tileIndex = 38
+stackSize = 64
+
+-- Bamboo 
+New Item = 36 
+name = Bamboo
+animationAngle = 45.0
+type = 1
+tileIndex = 65
+stackSize = 64
+fuelValue = 2
+
+-- Iron Ingot
+New Item = 37
+name = Iron Ingot
+animationAngle = -90.0
+stackSize = 64
+
+-- Gold Ingot
+New Item = 38
+name = Gold Ingot
+animationAngle = -90.0s
+stackSize = 64
+
+-- Melon Slice
+New Item = 39
+name = Melon Slice
+animationAngle = -135.0
+stackSize = 64
+foodPoints = 1
+foodSaturation = 3.0
+
+-- Rotten Flesh
+New Item = 40
+name = Rotten Flesh
+animationAngle = -135.0
+stackSize = 64
+foodPoints = 5
+foodSaturation = 0.0
+
+-- Bucket
+New Item = 41
+name = Bucket
+stackSize = 16
+
+-- Water Bucket
+New Item = 42
+name = Water Bucket
+stackSize = 1
+
+-- Lava Bucket
+New Item = 43
+name = Lava Bucket
+stackSize = 1
+
+-- Wheat Seeds
+New Item = 44
+name = Wheat Seeds
+type = 1
+tileIndex = 82
+
+-- Wheat
+New Item = 45
+name = Wheat
+
+-- Bread
+New Item = 46
+name = Bread
+animationAngle = -135.0
+stackSize = 64
+foodPoints = 5
+foodSaturation = 5.0
+
+-- Apple 
+New Item = 47
+name = Apple
+stackSize = 64
+foodPoints = 4
+foodSaturation = 5.0
+
+-- Carrot
+New Item = 48
+name = Carrot
+animationAngle = -135.0
+stackSize = 64
+type = 1
+tileIndex = 90
+foodPoints = 3
+foodSaturation = 5.0
+
+-- Potato
+New Item = 49
+name = Potato
+animationAngle = -135.0
+stackSize = 64
+type = 1
+tileIndex = 94
+foodPoints = 2
+foodSaturation = 5.0
+
+-- Baked Potato
+New Item = 50
+name = Potato
+stackSize = 64
+foodPoints = 5
+foodSaturation = 5.0
+
+-- Bow
+New Item = 51
+name = Bow
+animationAngle = -315.0
+stackSize = 1
+angleOffset = 336.5
+
+-- Bone
+New Item = 55
+name = Bone
+animationAngle = -135.0
+
+-- Bone Meal
+New Item = 56
+name = Bone Meal
+
+-- Gunpowder
+New Item = 57
+name = Gunpowder
+
+-- Porkchop
+New Item = 58
+name = Porkchop
+animationAngle = -135.0
+stackSize = 64
+foodPoints = 1
+foodSaturation = 0.0
+
+-- Cooked Porkchop
+New Item = 59
+name = Porkchop
+animationAngle = -135.0
+stackSize = 64
+foodPoints = 6
+foodSaturation = 6.0
+
+-- Beef
+New Item = 60
+name = Beef
+animationAngle = -135.0
+stackSize = 64
+foodPoints = 6
+foodSaturation = 0.0
+
+-- Steak
+New Item = 61
+name = Steak
+animationAngle = -135.0
+stackSize = 64
+foodPoints = 8
+foodSaturation = 8.0
+
+-- Dirt 
+New Item = 1001
+name = Dirt
+
+-- Grass Block
+New Item = 1002
+name = Grass Block
+
+-- Stone
+New Item = 1003
+name = Stone
+
+-- Cobblestone
+New Item = 1004
+name = Cobblestone
+itemGroup = 2
+
+-- Sand
+New Item = 1005
+name = Sand
+
+-- Sandstone
+New Item = 1006
+name = Sandstone
+
+-- Gravel
+New Item = 1007
+name = Gravel
+
+-- Andesite
+New Item = 1008
+name = Andesite
+
+-- Granite
+New Item = 1009
+name = Granite
+
+-- Diorite
+New Item = 1010
+name = Diorite
+
+-- Deepslate
+New Item = 1011
+name = Deepslate
+
+-- Cobbled Deepslate
+New Item = 1012
+name = Cobbled Deepslate
+itemGroup = 2
+
+-- Oak Log
+New Item = 1013
+name = Oak Log
+fuelValue = 12
+
+-- Oak Leaves
+New Item = 1014
+name = Oak Leaves
+
+-- Bedrock
+New Item = 1016
+name = Bedrock
+
+-- Birch Log
+New Item = 1017
+name = Birch Log
+fuelValue = 12
+
+-- Birch Leaves
+New Item = 1018
+name = Birch Leaves
+
+-- Cactus
+New Item = 1020
+name = Cactus
+
+-- Coal Ore
+New Item = 1021
+name = Coal Ore
+
+-- Deepslate Coal Ore
+New Item = 1022
+name = Deepslate Coal Ore
+
+-- Copper Ore
+New Item = 1023
+name = Copper Ore
+
+-- Deepslate Copper Ore
+New Item = 1024
+name = Deepslate Copper Ore
+
+-- Iron Ore
+New Item = 1025
+name = Iron Ore
+
+-- Deepslate Iron Ore
+New Item = 1026
+name = Deepslate Iron Ore
+
+-- Gold Ore
+New Item = 1027
+name = Gold Ore
+
+-- Deepslate Gold Ore
+New Item = 1028
+name = Deepslate Gold Ore
+
+-- Redstone Ore
+New Item = 1029
+name = Redstone Ore
+
+-- Deepslate Redstone Ore
+New Item = 1030
+name = Deepslate Redstone Ore
+
+-- Lapiz Ore
+New Item = 1031
+name = Lapiz Ore
+
+-- Deepslate Lapiz Ore
+New Item = 1032
+name = Deepslate Lapiz Ore
+
+-- Emerald Ore
+New Item = 1033
+name = Emerald Ore
+
+-- Deepslate Emerald Ore
+New Item = 1034
+name = Deepslate Emerald Ore
+
+-- Diamond Ore
+New Item = 1035
+name = Diamond Ore
+
+-- Deepslate Diamond Ore
+New Item = 1036
+name = Deepslate Diamond Ore
+
+-- Crafting Table 
+New Item = 1042
+name = Crafting Table
+fuelValue = 12
+
+-- Spruce Log 
+New Item = 1045
+name = Spruce Log
+fuelValue = 12
+
+-- Spruce Leaves
+New Item = 1047
+name = Spruce Leaves
+
+-- Oak Planks
+New Item = 1051
+name = Oak Planks
+itemGroup = 1
+fuelValue = 12
+
+-- Birch Planks
+New Item = 1052
+name = Birch Planks
+itemGroup = 1
+fuelValue = 12
+
+-- Spruce Planks
+New Item = 1053
+name = Spruce Planks
+itemGroup = 1
+fuelValue = 12
+
+-- Furnace 
+New Item = 1054
+name = Furnace
+
+-- Chest
+New Item = 1056
+name = Chest
+
+-- Clay Block
+New Item = 1059
+name = Clay Block
+
+-- Jungle Log
+New Item = 1060
+name = Jungle Log
+fuelValue = 12
+
+-- Jungle Leaves
+New Item = 1061
+name = Jungle Leaves
+
+-- Jungle Planks
+New Item = 1063
+name = Jungle Planks
+itemGroup = 1
+
+-- Mossy Cobblestone
+New Item = 1070
+name = Mossy Cobblestone
+
+-- Oak Sapling
+New Item = 1073
+name = Oak Sapling
+
+-- Birch Sapling 
+New Item = 1074
+name = Birch Sapling
+
+-- Spruce Sapling 
+New Item = 1075
+name = Spruce Sapling 
+
+-- Jungle Sapling 
+New Item = 1076
+name = Jungle Sapling
+
+-- Brown Mushroom
+New Item = 1077
+name = Brown Mushroom
+
+-- Red Mushroom
+New Item = 1078
+name = Red Mushroom
+
+-- Blue Orchid
+New Item = 1079
+name = Blue Orchid
+
+-- Acacia Log
+New Item = 1098
+name = Acacia Log
+fuelValue = 12
+
+-- Acacia Leaves
+New Item = 1099
+name = Acacia Leaves
+
+-- Acacia Planks
+New Item = 1101
+name = Acacia Planks
+itemGroup = 1
+
+-- Acacia Sapling
+New Item = 1102
+name = Acacia Sapling
+
+-- Dirt Wall
+New Item = 2001
+name = Dirt Wall
+
+-- Stone Wall
+New Item = 2002
+name = Stone Wall
+
+-- Deepslate Wall
+New Item = 2003
+name = Deepslate Wall
+
+-- Sand Wall
+New Item = 2004
+name = Sand Wall
+
+-- Cobblestone Wall
+New Item = 2005
+name = Cobblestone Wall
+
+-- Mossy Cobblestone Wall
+New Item = 2006
+name = Mossy Cobblestone Wall

@@ -1,0 +1,54 @@
+-- Desert Biome
+
+redValue = 200
+greenValue = 225
+blueValue = 50
+terrainFrequency = 1.0
+terrainAmplitude = 15.0
+treeType = 3
+treeFrequency = 2.0
+rate = 5
+
+EndProperties
+
+---- Block Layers ----
+
+-- Sandstone Layer
+New Generator
+layer = 3
+blockId = 6
+offset = 0
+distance = 17
+edgeNoiseFilter = 2
+edgeNoiseOffset = 4
+
+-- Sand Layer
+New Generator
+blockId = 5
+offset = 0
+distance = 11
+edgeNoiseFilter = 2
+edgeNoiseOffset = 3
+
+-- Deadbush Layer
+New Generator
+layer = 4
+blockId = 58
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 0.33
+noiseOctaves = 8
+noiseLowerBound = 0.25
+noiseUpperBound = 1.0
+isPlant = 1
+
+---- Wall Layers ----
+
+-- Sand Layer
+New Generator
+wallId = 4
+offset = 3
+distance = 17
+edgeNoiseFilter = 2
+edgeNoiseOffset = 2

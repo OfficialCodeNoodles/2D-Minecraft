@@ -1,0 +1,28 @@
+-- Air
+New Wall = 0
+lightIndex = 1
+hasTransparency = 1
+
+-- Dirt Wall
+New Wall = 1
+requiredToolToBreak = 3
+hardness = 0.5
+soundEvent = 2
+
+-- Stone Wall
+New Wall = 2
+requiredToolToBreak = 1
+requiredToolStrength = 25.0
+hardness = 2.0
+
+-- Deepslate Wall
+New Wall = 3
+requiredToolToBreak = 1
+requiredToolStrength = 25.0
+hardness = 2.5
+
+-- Sand Wall
+New Wall = 4
+requiredToolToBreak = 3 
+hardness = 0.5
+soundEvent = 4

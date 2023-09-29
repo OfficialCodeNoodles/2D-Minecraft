@@ -1,0 +1,130 @@
+-- Swamp Biome
+
+redValue = 30
+greenValue = 175
+blueValue = 40
+terrainFrequency = 1.5
+terrainAmplitude = 20.0
+treeType = 1
+treeFrequency = 1.5
+rate = 4
+
+EndProperties
+
+---- Block Layers ----
+
+-- Dirt Layer
+New Generator
+blockId = 1
+offset = 0
+distance = 11
+edgeNoiseFilter = 2
+edgeNoiseOffset = 2
+
+-- Grass Block Layer
+New Generator
+blockId = 2
+offset = 0
+distance = 1
+edgeNoiseOffset = 0
+
+-- Grass Layer
+New Generator
+layer = 4
+blockId = 37
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 0.33
+noiseOctaves = 8
+noiseLowerBound = 0.03
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Fern Layer
+New Generator
+layer = 4
+blockId = 48
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 0.33
+noiseOctaves = 8
+noiseLowerBound = 0.3
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Poppy Layer
+New Generator
+layer = 4
+blockId = 49
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 3.0
+noiseOctaves = 8
+noiseLowerBound = 0.65
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Dandelion Layer
+New Generator
+layer = 4
+blockId = 50
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 3.0
+noiseOctaves = 8
+noiseLowerBound = 0.6
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Brown Mushroom Layer
+New Generator
+layer = 4
+blockId = 77
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 2.0
+noiseOctaves = 8
+noiseLowerBound = 0.2
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Red Mushroom Layer
+New Generator
+layer = 4
+blockId = 78
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 2.0
+noiseOctaves = 8
+noiseLowerBound = 0.2
+noiseUpperBound = 1.0
+isPlant = 1
+
+-- Blue Orchid Layer
+New Generator
+layer = 4
+blockId = 79
+offset = -1
+distance = 1
+conditionalFilter = 1
+noiseFrequency = 3.0
+noiseOctaves = 8
+noiseLowerBound = 0.2
+noiseUpperBound = 1.0
+isPlant = 1
+
+---- Wall Layers ----
+
+-- Dirt Layer
+New Generator
+wallId = 1
+offset = 3
+distance = 11
+edgeNoiseFilter = 2
+edgeNoiseOffset = 2
