@@ -1,0 +1,86 @@
+-- Zombie Drops
+New Table = 1
+item = 40:0:2:100.0:
+item = 37:1:1:2.0:
+item = 48:1:1:50.0:
+item = 49:1:1:50.0:
+
+-- Melon Drops
+New Table = 2
+item = 39:3:7:100.0:
+
+-- Dead Bush Drops
+New Table = 3
+item = 34:0:2:100.0:
+
+-- Dungeon Chest Loot 
+New Table = 4
+item = 40:5:50:75.0:
+item = 37:3:10:50.0:
+
+-- Grass Drops
+New Table = 5
+item = 44:0:1:25.0:
+
+-- Oak Leaf Drops
+New Table = 6
+item = 1073:0:1:20.0:
+item = 34:0:2:10.0:
+item = 47:0:1:8.0:
+
+-- Birch Leaf Drops
+New Table = 7
+item = 1074:0:1:20.0:
+item = 34:0:2:10.0:
+
+-- Spruce Leaf Drops
+New Table = 8
+item = 1075:0:1:20.0:
+item = 34:0:2:10.0:
+
+-- Jungle Leaf Drops
+New Table = 9
+item = 1076:0:1:20.0:
+item = 34:0:2:10.0:
+
+-- Wheat Drops
+New Table = 10
+item = 44:1:2:100.0:
+item = 45:1:2:100.0:
+
+-- Carrot Drops
+New Table = 11
+item = 48:2:4:100.0:
+
+-- Potato Drops
+New Table = 12
+item = 49:2:4:100.0:
+
+-- Skeleton Drops
+New Table = 13
+item = 55:0:2:100.0:
+
+-- Creeper Drops
+New Table = 14
+item = 57:0:2:100.0:
+
+-- Redstone Ore Drops
+New Table = 15
+item = 30:4:5:100.0:
+
+-- Lapiz Ore Drops
+New Table = 16
+item = 31:4:9:100.0:
+
+-- Pig Drops
+New Table = 17
+item = 58:0:2:100.0:
+
+-- Cow Drops
+New Table = 18
+item = 60:0:2:100.0:
+
+-- Acacia Leaf Drops
+New Table = 19
+item = 1102:0:1:20.0:
+item = 34:0:2:10.0:

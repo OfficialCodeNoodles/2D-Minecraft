@@ -1,0 +1,59 @@
+-- Back Leg
+New Segment = 0
+textureIndex = 2
+xpos = -0.4375
+ypos = 0.0
+xOrigin = 2.0
+yOrigin = 0.0
+rotation = 0.0
+redValue = 127
+greenValue = 127
+blueValue = 127
+
+-- Back Leg
+New Segment = 1
+textureIndex = 2
+xpos = 0.4375
+ypos = 0.0
+xOrigin = 2.0
+yOrigin = 0.0
+rotation = 0.0
+redValue = 127
+greenValue = 127
+blueValue = 127
+
+-- Torso
+New Segment = 2
+textureIndex = 1
+xpos = 0.0
+ypos = -0.3125
+xOrigin = 9.0
+yOrigin = 5.0
+rotation = 0.0
+
+-- Head
+New Segment = 3
+textureIndex = 0
+xpos = 0.5625
+ypos = -0.25
+xOrigin = 0.0
+yOrigin = 9.0
+rotation = 0.0
+
+-- Front Leg
+New Segment = 4
+textureIndex = 2
+xpos = -0.4375
+ypos = 0.0
+xOrigin = 2.0
+yOrigin = 0.0
+rotation = 0.0
+
+-- Front Leg
+New Segment = 5
+textureIndex = 2
+xpos = 0.4375
+ypos = 0.0
+xOrigin = 2.0
+yOrigin = 0.0
+rotation = 0.0

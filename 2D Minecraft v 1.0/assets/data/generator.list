@@ -1,0 +1,259 @@
+---- Block Layers ----
+
+-- Stone Layer
+New Generator
+blockId = 3
+offset = 0
+distance = -1
+edgeNoiseOffset = 0
+
+-- Gravel Layer
+New Generator
+blockId = 7
+offset = 0
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 25.0
+noiseLowerBound = 0.35
+noiseUpperBound = 1.0
+
+-- Diorite Layer
+New Generator
+blockId = 10
+offset = 0
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseLowerBound = 0.4
+noiseUpperBound = 1.0
+
+-- Granite Layer
+New Generator
+blockId = 9
+offset = 0
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 12.0
+noiseLowerBound = 0.4
+noiseUpperBound = 1.0
+
+-- Andesite Layer
+New Generator
+blockId = 8
+offset = 0
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 12.0
+noiseLowerBound = 0.35
+noiseUpperBound = 1.0
+
+-- Clay Block Layer
+New Generator
+blockId = 59
+offset = 0
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 20.0
+noiseLowerBound = 0.45
+noiseUpperBound = 1.0
+
+-- Coal Ore Layer 
+NewGenerator
+blockId = 21
+offset = 0 
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 12.0
+noiseOctaves = 3
+noiseLowerBound = 0.5
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Iron Ore Layer 
+NewGenerator
+blockId = 25
+offset = 0 
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 5
+noiseLowerBound = 0.6
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Gold Ore Layer 
+NewGenerator
+blockId = 27
+offset = 250
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 5
+noiseLowerBound = 0.65
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Redstone Ore Layer 
+NewGenerator
+blockId = 29
+offset = 275
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 5
+noiseLowerBound = 0.6
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Lapiz Ore Layer 
+NewGenerator
+blockId = 31
+offset = 250
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 5
+noiseLowerBound = 0.6
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Diamond Ore Layer 
+NewGenerator
+blockId = 35
+offset = 275
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 20.0
+noiseOctaves = 5
+noiseLowerBound = 0.65
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Deepslate Layer
+New Generator
+blockId = 11
+offset = 300
+distance = -1
+edgeNoiseFilter = 1
+edgeNoiseOffset = 5
+
+-- Deepslate Coal Ore Layer 
+NewGenerator
+blockId = 22
+offset = 305
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 12.0
+noiseOctaves = 3
+noiseLowerBound = 0.55
+noiseUpperBound = 1.0
+noiseHeightScaler = -0.05
+
+-- Deepslate Iron Ore Layer 
+NewGenerator
+blockId = 26
+offset = 305
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 5
+noiseLowerBound = 0.62
+noiseUpperBound = 1.0
+noiseHeightScaler = -0.05
+
+-- Deepslate Gold Ore Layer 
+NewGenerator
+blockId = 28
+offset = 305
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 5
+noiseLowerBound = 0.65
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Deepslate Redstone Ore Layer 
+NewGenerator
+blockId = 30
+offset = 305
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 5
+noiseLowerBound = 0.58
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Deepslate Lapiz Ore Layer 
+NewGenerator
+blockId = 32
+offset = 305
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 15.0
+noiseOctaves = 5
+noiseLowerBound = 0.58
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Deepslate Diamond Ore Layer 
+NewGenerator
+blockId = 36
+offset = 305
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 20.0
+noiseOctaves = 5
+noiseLowerBound = 0.62
+noiseUpperBound = 1.0
+noiseHeightScaler = 0.05
+
+-- Cave System
+New Generator
+layer = 4
+blockId = 0
+offset = 0
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 70.0
+noiseLowerBound = 0.10
+noiseUpperBound = 0.15
+noiseHeightScaler = 0.04
+
+-- Bedrock Layer
+New Generator
+blockId = 16
+rangeFilter = 2
+start = 0
+end = 6
+edgeNoiseFilter = 1
+edgeNoiseOffset = 5
+
+---- Wall Layers ----
+
+-- Stone Layer
+New Generator
+layer = 2
+wallId = 2
+offset = 10
+distance = -1
+edgeNoiseOffset = 0
+
+-- Dirt Layer
+New Generator
+wallId = 1
+offset = 10
+distance = -1
+conditionalFilter = 1
+noiseFrequency = 40.0
+noiseLowerBound = 0.35
+noiseUpperBound = 1.0
+
+-- Deepslate Layer
+New Generator
+wallId = 3
+offset = 303
+distance = -1
+edgeNoiseFilter = 1
+edgeNoiseOffset = 5

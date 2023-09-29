@@ -1,0 +1,24 @@
+-- Zombie
+New Spawn = 0
+mobType = 0
+spawnAttempts = 1
+
+-- Skeleton
+New Spawn = 1
+mobType = 1
+spawnAttempts = 1
+
+-- Creeper
+New Spawn = 2
+mobType = 2
+spawnAttempts = 1
+
+-- Pig
+New Spawn = 3
+mobType = 3
+spawnAttempts = 1
+
+-- Cow
+New Spawn = 4
+mobType = 4
+spawnAttempts = 1

@@ -1,0 +1,34 @@
+-- Iron Ingot
+New Recipe = 0
+input = 28
+output = 37
+
+-- Gold Ingot 
+New Recipe = 1
+input = 29
+output = 38
+
+-- Stone
+New Recipe = 2
+input = 1004
+output = 1003
+
+-- Baked Potato
+New Recipe = 3
+input = 49
+output = 50
+
+-- Deepslate 
+New Recipe = 4
+input = 1012
+output = 1011
+
+-- Cooked Porkchop
+New Recipe = 5
+input = 58
+output = 59
+
+-- Steak
+New Recipe = 6
+input = 60
+output = 61
