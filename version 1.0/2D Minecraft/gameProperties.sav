@@ -1,0 +1,12 @@
+musicVolume = 50.699299
+soundVolume = 100.000000
+framerate = 60
+lightingStyle = 0
+renderBiomeBackground = 1
+renderSunAndMoon = 1
+renderParticles = 1
+renderStars = 1
+keyMoveLeft = 0
+keyMoveRight = 3
+keyJump = 57
+keyOpenInventory = 4
