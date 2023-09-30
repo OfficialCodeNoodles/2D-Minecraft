@@ -401,3 +401,10 @@ New Recipe = 60
 items = 1098
 output = 1101
 count = 4
+
+-- Furnace
+New Recipe = 61
+items = -2 -2 -2
+items = -2 0 -2
+items = -2 -2 -2
+output = 1054
