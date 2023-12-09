@@ -1,0 +1,6 @@
+*.dll
+*.zip
+*.exe
+*.sav
+build/
+.cache/
